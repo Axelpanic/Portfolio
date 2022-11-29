@@ -2,7 +2,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header {
+.header {
     text-align:center;
     width:100%;
     Height: 50px;
@@ -10,13 +10,15 @@ header {
     background-color: deepskyblue;
     color:aqua;
     padding-bottom: 70px;
-    box-shadow: 10px 10px 15px gray;
+    box-shadow: 0px 10px 25px gray;
 
 }
+
 header nav ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
+    color: #aaaaaa;
 }
 
 .about-me h2{
@@ -33,7 +35,13 @@ header nav ul {
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0,0,0, 0.3);
 }
-/*
+.deployed {
+    display:flex;
+    padding:50px;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
 .cards {
     border-style: solid;
     border-width: 1px;
@@ -41,9 +49,9 @@ header nav ul {
     padding: 10px;
     flex: 0 0 300px;
     box-shadow: 10px 10px 5px #aaaaaa;
-    margin: 20px;
+    margin: 30px;
   }
-*/
+  
 #hidden {
     display:none;
 }
@@ -55,11 +63,13 @@ header nav ul {
     cursor:none
 }
 
-.forum h3{
-    text-align:center;
+
+.contact-me {
+    text-align: center;
 }
 
-.forum {
-    width: 100%;
-    max-width: 100%;
+.contact-me ul{
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
 }
