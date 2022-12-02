@@ -21,10 +21,6 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 I'd like to thank MDN and github users for insperation, though I eventually learned how to build the portfolio myself they provided a invaluable serivce!
 
 
-## License
-
-MIT License. 
-
 
 ## Badges
 
