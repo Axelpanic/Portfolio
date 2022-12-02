@@ -21,6 +21,7 @@ header nav ul {
     color: #aaaaaa;
 }
 
+
 .about-me h2{
     Text-align:center;
 }
@@ -42,27 +43,42 @@ header nav ul {
     justify-content:space-evenly;
 }
 
+.deployed h2{
+    text-align:center;
+    width:100%;
+    margin:10px;
+    cursor:none
+}
+
+.blah {
+    display:flex;
+    Flex-wrap:wrap;
+    Justify-content:center;
+}
+
 .cards {
     border-style: solid;
-    border-width: 1px;
-    border-radius: 50px;
-    padding: 10px;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 1px;
     flex: 0 0 300px;
     box-shadow: 10px 10px 5px #aaaaaa;
-    margin: 30px;
-  }
-  
+    margin:10px;
+}
+
+.cards img {
+    max-width: 100%;
+    height:auto;
+}
+
 #hidden {
     display:none;
 }
 
-.deployed h2{
+.cards header {
+    background-color: antiquewhite;
     text-align:center;
-    width:100%;
-    margin:10px 10px 0px 0px;
-    cursor:none
 }
-
 
 .contact-me {
     text-align: center;
@@ -72,4 +88,15 @@ header nav ul {
     display:flex;
     justify-content: space-between;
     list-style: none;
+    margin-left:10%;
+    margin-right:10%;
 }
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+    .blah {
+        flex-direction: row;
+    }
