@@ -100,3 +100,15 @@ header nav ul {
     .blah {
         flex-direction: row;
     }
+
+    /* spare code:
+
+    {
+	display: grid
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+*/
