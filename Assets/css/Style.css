@@ -18,9 +18,13 @@ header nav ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
-    color: #aaaaaa;
+    color: #aaaaaa; 
 }
 
+.image {
+    max-width: 200px;
+    height: auto;
+}
 
 .about-me h2{
     Text-align:center;
@@ -51,9 +55,11 @@ header nav ul {
 }
 
 .blah {
-    display:flex;
-    Flex-wrap:wrap;
-    Justify-content:center;
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
 }
 
 .cards {
@@ -100,15 +106,3 @@ header nav ul {
     .blah {
         flex-direction: row;
     }
-
-    /* spare code:
-
-    {
-	display: grid
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-row-gap: 20px;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
-}
-
-*/
