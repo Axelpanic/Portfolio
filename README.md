@@ -10,12 +10,10 @@ This was not an easy task to build this, I had to find insperation and then figu
 
 This portfolio is for my own personal use! Please do not cut and paste without credit.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![image](https://user-images.githubusercontent.com/112765530/207206369-d30192f5-d8b6-4045-9358-182b9e07fa47.png)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
+https://axelpanic.github.io/Portfolio/
 ## Credits
 
 I'd like to thank MDN and github users for insperation, though I eventually learned how to build the portfolio myself they provided a invaluable serivce!
